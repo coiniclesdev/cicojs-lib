@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var cicojs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(cicojs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+cicojs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = cicojs
